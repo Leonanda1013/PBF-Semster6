@@ -20,6 +20,12 @@
 
 ![alt text](images/image2.png)
 
-## Langah 3 - Menjalankan Server Deployment
+## Langkah 3 - Menjalankan Server Deployment
 
 ![alt text](images/image3.png)
+
+## Langkahh 5 - Modifikasi Halaman Utama
+
+![alt text](images/image5.png)
+
+
