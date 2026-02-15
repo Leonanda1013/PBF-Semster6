@@ -16,6 +16,10 @@
 
 ![alt text](images/image1.png)
 
-## Lankah 2 - Membuat Project Next.js
+## Langkah 2 - Membuat Project Next.js
 
 ![alt text](images/image2.png)
+
+## Langah 3 - Menjalankan Server Deployment
+
+![alt text](images/image3.png)
