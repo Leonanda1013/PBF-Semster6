@@ -24,8 +24,11 @@
 
 ![alt text](images/image3.png)
 
-## Langkahh 5 - Modifikasi Halaman Utama
+## Langkah 5 - Modifikasi Halaman Utama
 
 ![alt text](images/image5.png)
 
+## Langkah 6 Modifikasi API
 
+![alt text](images/image6-1.png)
+![alt text](images/image6-2.png)
