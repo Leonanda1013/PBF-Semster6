@@ -14,4 +14,8 @@
 
 ## Lankah 1 - Pengecekan Lingkungan
 
-![alt text](images/image.png)
+![alt text](images/image1.png)
+
+## Lankah 2 - Membuat Project Next.js
+
+![alt text](images/image2.png)
