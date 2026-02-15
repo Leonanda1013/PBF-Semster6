@@ -28,7 +28,13 @@
 
 ![alt text](images/image5.png)
 
-## Langkah 6 Modifikasi API
+## Langkah 6 - Modifikasi API
 
 ![alt text](images/image6-1.png)
 ![alt text](images/image6-2.png)
+
+## Langkah 7 - Modifakasi Background
+
+![alt text](images/image7.png)
+
+
