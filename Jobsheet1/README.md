@@ -44,3 +44,34 @@
 ## Tugas 2
 
 ![alt text](images/tugas2.png)
+
+## Pertanyaan Refleksi
+
+### 1. Mengapa Pages Router disebut routing berbasis file?
+
+Pages Router disebut routing berbasis file karena sistem routing ditentukan dari nama dan lokasi file di dalam folder `pages/`.  
+Contoh:
+
+- `pages/index.js` → `/`
+- `pages/about.js` → `/about`  
+  Tidak perlu konfigurasi routing manual.
+
+---
+
+### 2. Apa perbedaan Next.js dengan React standar (CRA)?
+
+- **Next.js**: Framework React yang memiliki routing otomatis, SSR, SSG, dan optimasi bawaan.
+- **React (CRA)**: Hanya menyediakan dasar React, perlu tambahan library untuk routing atau fitur lainnya.
+
+---
+
+### 3. Apa fungsi `npm run dev`?
+
+Menjalankan aplikasi dalam mode development dan membuka server lokal (biasanya `localhost:3000`) dengan fitur auto-reload.
+
+---
+
+### 4. Apa perbedaan `npm run dev` dan `npm run build`?
+
+- `npm run dev` → Untuk pengembangan (coding & testing).
+- `npm run build` → Membuat versi produksi yang sudah dioptimalkan.
