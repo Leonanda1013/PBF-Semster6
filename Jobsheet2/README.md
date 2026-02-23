@@ -53,6 +53,9 @@
 ![alt text](tugas1a.png)
 ![alt text](tugas1b.png)
 
+## Tugas 2
+![alt text](tugas2.png)
+
 
 
 
