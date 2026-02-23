@@ -13,3 +13,6 @@
 ## 1. Routing dasar
 ![alt text](images/image1.png)
 
+## 2. Routing Menggunakan Folder
+![alt text](images/image2.png)
+
