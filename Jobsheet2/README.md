@@ -37,5 +37,11 @@
 ### c. coba
 ![alt text](images/image4c.png)
 
+## 5. Membuat Komponen Navbar
+![alt text](image5a.png)
+![alt text](image5b
+.png)
+
+
 
 
