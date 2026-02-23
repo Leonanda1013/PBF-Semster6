@@ -60,16 +60,16 @@
 
 ## Tugas 1
 
-![alt text](tugas1a.png)
-![alt text](tugas1b.png)
+![alt text](images/tugas1a.png)
+![alt text](images/tugas1b.png)
 
 ## Tugas 2
 
-![alt text](tugas2.png)
+![alt text](images/tugas2.png)
 
 ## Tugas 3
 
-![alt text](tugas3.png)
+![alt text](images/tugas3.png)
 
 ## Pertanyaan Refleksi
 
