@@ -45,6 +45,14 @@
 ## 6. Membuat Layout Global Appshell
 ![alt text](images/image6.png)
 
+## 7. Implementasi Layout
+![alt text](images/image7.png)
+
+
+##  Tugas 1
+![alt text](tugas1a.png)
+![alt text](tugas1b.png)
+
 
 
 
