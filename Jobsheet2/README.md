@@ -10,3 +10,6 @@
 - **NIM**: 2341720149
 - **Kelas**: TI-3D
 
+## 1. Routing dasar
+![alt text](images/image1.png)
+
