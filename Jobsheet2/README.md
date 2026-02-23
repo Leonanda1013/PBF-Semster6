@@ -29,3 +29,13 @@
 ### b.
 ![alt text](images/image3b.png)
 
+## 4. Dynamic Route
+### a. Halaman Product
+![alt text](images/image4a.png)
+### b. ambil 
+![alt text](images/image4b.png)
+### c. coba
+![alt text](images/image4c.png)
+
+
+
