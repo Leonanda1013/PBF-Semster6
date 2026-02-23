@@ -43,6 +43,7 @@
 .png)
 
 ## 6. Membuat Layout Global Appshell
+![alt text](images/image6.png)
 
 
 
