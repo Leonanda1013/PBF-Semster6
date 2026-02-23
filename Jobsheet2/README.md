@@ -27,39 +27,73 @@
 ![alt text](images/image3a3.png)
 
 ### b.
+
 ![alt text](images/image3b.png)
 
 ## 4. Dynamic Route
+
 ### a. Halaman Product
+
 ![alt text](images/image4a.png)
-### b. ambil 
+
+### b. ambil
+
 ![alt text](images/image4b.png)
+
 ### c. coba
+
 ![alt text](images/image4c.png)
 
 ## 5. Membuat Komponen Navbar
+
 ![alt text](image5a.png)
 ![alt text](image5b
 .png)
 
 ## 6. Membuat Layout Global Appshell
+
 ![alt text](images/image6.png)
 
 ## 7. Implementasi Layout
+
 ![alt text](images/image7.png)
 
+## Tugas 1
 
-##  Tugas 1
 ![alt text](tugas1a.png)
 ![alt text](tugas1b.png)
 
 ## Tugas 2
+
 ![alt text](tugas2.png)
 
 ## Tugas 3
+
 ![alt text](tugas3.png)
 
+## Pertanyaan Refleksi
 
+### 1. Perbedaan routing berbasis file dan routing manual
 
+- **File-based routing**: otomatis dari nama file (contoh: `pages/about.js` → `/about`)
+- **Manual routing**: harus diatur sendiri (misalnya pakai React Router)
 
+---
 
+### 2. Mengapa dynamic routing penting?
+
+Dynamic routing memungkinkan halaman menggunakan parameter seperti:
+
+```
+/blog/[slug]
+```
+
+### 3. Keuntungan layout global
+
+Layout global digunakan untuk komponen yang dipakai di semua halaman (Navbar, Footer).
+
+Keuntungan:
+
+- Tidak perlu tulis ulang di setiap page
+- Kode lebih rapi
+- Konsisten di seluruh aplikasi
