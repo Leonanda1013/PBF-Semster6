@@ -56,6 +56,9 @@
 ## Tugas 2
 ![alt text](tugas2.png)
 
+## Tugas 3
+![alt text](tugas3.png)
+
 
 
 
