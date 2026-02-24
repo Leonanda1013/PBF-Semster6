@@ -18,3 +18,7 @@
 
 ![alt text](images/image2.png)
 ![alt text](images/image22.png)
+
+## Langkah 3 Pengujuan Catch-All Route
+
+![alt text](images/image3.png)
