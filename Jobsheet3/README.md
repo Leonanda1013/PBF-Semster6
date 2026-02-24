@@ -9,3 +9,6 @@
 - **Nama**: Vincentius Leonanda Prabowo
 - **NIM**: 2341720149
 - **Kelas**: TI-3D
+
+## Langkah 1 Menjalankan Project
+![alt text](imagesimage1.png)
