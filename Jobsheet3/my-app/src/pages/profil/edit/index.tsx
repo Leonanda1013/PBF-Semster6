@@ -1,8 +1,15 @@
-export default function EditProfile() {
-  return (
-    <div style={{ padding: "20px" }}>
-      <h1>Ini halaman edit profile</h1>
-      <p>Halaman ini digunakan untuk mengedit profil pengguna.</p>
-    </div>
-  );
-}
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+
+const EditProfil = () => {
+  const [isLogin, setIsLogin] = useState(false);
+  const { push } = useRouter();
+  useEffect(() => {
+    if (!isLogin) {
+      push("/auth/login");
+    }
+  }, []);
+  return <div>product page</div>;
+};
+
+export default EditProfil;

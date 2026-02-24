@@ -39,4 +39,13 @@
 ## Langkah 8 Simulasi Redirect
 ![alt text](images/image8.png)
 
+## Tugas 1
+![alt text](images/Tugas1.png)
+
+## Tugas 2
+![alt text](images/image7.png)
+
+## Tugas 3
+![alt text](images/Tugas3.png)
+
 
