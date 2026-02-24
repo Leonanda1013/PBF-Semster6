@@ -26,4 +26,7 @@
 ## Langkah 4 Optional Catch-All Route
 ![alt text](images/images4.png)
 
+## Langkah 5 Validasi Parameter
+![alt text](images/image5.png)
+
 
