@@ -36,4 +36,7 @@
 ![alt text](images/image7.png)
 
 
+## Langkah 8 Simulasi Redirect
+![alt text](images/image8.png)
+
 
