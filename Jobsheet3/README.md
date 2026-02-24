@@ -32,4 +32,8 @@
 ## Langkah 6 Membuat Halaman Login dan Register
 ![alt text](images/image6.png)
 
+## Langkah 7 Navigasi Imeratif
+![alt text](images/image7.png)
+
+
 
