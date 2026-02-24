@@ -11,4 +11,10 @@
 - **Kelas**: TI-3D
 
 ## Langkah 1 Menjalankan Project
+
 ![alt text](imagesimage1.png)
+
+## Langkah 2 Membuat Catch-All Route
+
+![alt text](images/image2.png)
+![alt text](images/image22.png)
