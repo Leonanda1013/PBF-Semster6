@@ -29,4 +29,7 @@
 ## Langkah 5 Validasi Parameter
 ![alt text](images/image5.png)
 
+## Langkah 6 Membuat Halaman Login dan Register
+![alt text](images/image6.png)
+
 
