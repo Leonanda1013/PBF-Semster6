@@ -22,3 +22,8 @@
 ## Langkah 3 Pengujuan Catch-All Route
 
 ![alt text](images/image3.png)
+
+## Langkah 4 Optional Catch-All Route
+![alt text](images/images4.png)
+
+
