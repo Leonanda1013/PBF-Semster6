@@ -46,9 +46,8 @@
 
 ## 5. Membuat Komponen Navbar
 
-![alt text](image5a.png)
-![alt text](image5b
-.png)
+![alt text](images/image5a.png)
+![alt text](images/image5b.png)
 
 ## 6. Membuat Layout Global Appshell
 
