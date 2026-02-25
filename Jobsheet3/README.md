@@ -12,7 +12,7 @@
 
 ## Langkah 1 Menjalankan Project
 
-![alt text](imagesimage1.png)
+![alt text](images/image1.png)
 
 ## Langkah 2 Membuat Catch-All Route
 
@@ -25,7 +25,7 @@
 
 ## Langkah 4 Optional Catch-All Route
 
-![alt text](images/images4.png)
+![alt text](images/image4.png)
 
 ## Langkah 5 Validasi Parameter
 
