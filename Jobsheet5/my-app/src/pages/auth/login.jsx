@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import style from "./login.module.css";
 
 const HalamanLogin = () => {
   const { push } = useRouter();
@@ -8,7 +9,7 @@ const HalamanLogin = () => {
   };
 
   return (
-    <div>
+    <div className={style.login}>
       <h1>Halaman Login</h1>
       <button onClick={handleLogin}>Login</button>
       <button onClick={() => push("/product")}>Login</button>

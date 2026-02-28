@@ -13,7 +13,10 @@
 ## Langkah 1 : Globas CSS
 ![alt text](images/image1.png)
 
-## Langkah 2 : CSS Module
-![alt text](image.png)
+## Langkah 2 : CSS Module (local scope)
+![alt text](images/image2.png)
+
+## Langkah 3 : Styling Untuk Pages (CSS Module)
+![alt text](images/image3.png)
 
 
