@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/dist/client/components/navigation";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
   const { push } = useRouter();
   useEffect(() => {
     if (!isLogin) {

@@ -13,3 +13,7 @@
 ## Langkah 1 : Globas CSS
 ![alt text](images/image1.png)
 
+## Langkah 2 : CSS Module
+![alt text](image.png)
+
+
