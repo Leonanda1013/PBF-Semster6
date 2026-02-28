@@ -20,3 +20,11 @@
 ![alt text](images/image3.png)
 
 
+## Langkah 4 : Conditional Rendering Navbar (Tanpa Navbar di Login)
+![alt text](images/image4.png)
+
+## Langkah 5 : Refactoring Struktur Project (Best Practice)
+![alt text](images/image5.png)
+
+
+
