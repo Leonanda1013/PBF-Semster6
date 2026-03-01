@@ -26,5 +26,9 @@
 ## Langkah 5 : Refactoring Struktur Project (Best Practice)
 ![alt text](images/image5.png)
 
+## Langkah 6 : Inline Styling (CSS in JS)
+![alt text](images/image6.png)
+
+
 
 

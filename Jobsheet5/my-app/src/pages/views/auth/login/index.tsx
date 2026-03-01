@@ -11,9 +11,11 @@ const TampilanLogin = () => {
   return (
     <div className={style.login}>
       <h1>Halaman Login</h1>
+
       <button onClick={handleLogin}>Login</button>
       <button onClick={() => push("/product")}>Login</button>
       <button onClick={() => handleLogin()}>Login</button>
+      <h1 style={{ color: "white", borderRadius: "10px", padding: "10px" }}>belum punya akun</h1>
       <Link href="/auth/register">Register</Link>
     </div>
   );
