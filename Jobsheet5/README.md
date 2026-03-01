@@ -35,6 +35,9 @@
 ## Langkah 8 : SCSS (SASS)
 ![alt text](images/image8.png)
 
+## Langkah 9 : Tailwind
+![alt text](images/image9.png)
+
 
 
 

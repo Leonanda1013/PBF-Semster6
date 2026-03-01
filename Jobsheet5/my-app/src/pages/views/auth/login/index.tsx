@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import style from "./login.module.scss";
 
 const TampilanLogin = () => {
+  console.log("APP LOADED"); // ✅ di sini
   const { push } = useRouter();
   const handleLogin = () => {
     push("/product");
@@ -11,6 +12,7 @@ const TampilanLogin = () => {
 
   return (
     <div className={style.login}>
+      <h1 className="text-red-500 text-4xl">TEST</h1>
       <h1 className="text-3xl font-bold text-blue-600">Halaman Login</h1>
 
       <button onClick={handleLogin}>Login</button>
