@@ -29,6 +29,9 @@
 ## Langkah 6 : Inline Styling (CSS in JS)
 ![alt text](images/image6.png)
 
+## Langkah 7 : Kombinasi Global CSS dan CSS Module
+![alt text](images/image7.png)
+
 
 
 
