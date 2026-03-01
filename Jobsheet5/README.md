@@ -32,6 +32,11 @@
 ## Langkah 7 : Kombinasi Global CSS dan CSS Module
 ![alt text](images/image7.png)
 
+## Langkah 8 : SCSS (SASS)
+![alt text](images/image8.png)
+
+
+
 
 
 

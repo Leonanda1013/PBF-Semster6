@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import style from "./login.module.css";
+// import style from "./login.module.css";
+import style from "./login.module.scss";
 
 const TampilanLogin = () => {
   const { push } = useRouter();
@@ -10,7 +11,7 @@ const TampilanLogin = () => {
 
   return (
     <div className={style.login}>
-      <h1>Halaman Login</h1>
+      <h1 className="text-3xl font-bold text-blue-600">Halaman Login</h1>
 
       <button onClick={handleLogin}>Login</button>
       <button onClick={() => push("/product")}>Login</button>
