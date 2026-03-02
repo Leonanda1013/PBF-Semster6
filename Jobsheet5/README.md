@@ -38,6 +38,10 @@
 ## Langkah 9 : Tailwind
 ![alt text](images/image9.png)
 
+## Tugas 1
+![alt text](images/tugas1.png)
+![alt text](images/tugas1-1.png)
+
 
 
 
