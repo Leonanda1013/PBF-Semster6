@@ -13,3 +13,6 @@
 ## Langah 1 Jalankan Project
 ![alt text](images/imgae1.png)
 
+## Langkah 2 Membuat Custom Document
+![alt text](images/image2.png)
+
