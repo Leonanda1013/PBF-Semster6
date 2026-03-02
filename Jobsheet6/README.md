@@ -25,3 +25,6 @@
 ## Langkah 5 Styling Halaman 404
 ![alt text](images/image5.png)
 
+## Langah 6 MEnampilkan Gambar dari Folder Public
+![alt text](images/image6.png)
+
