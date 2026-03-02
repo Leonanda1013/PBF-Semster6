@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div>
+      <head>
+        <title>Praktimun Next.JS Page Router</title>
+      </head>
       {/* Hero Section */}
       <section className="h-screen bg-blue-500 flex flex-col justify-center items-center text-white text-center">
         <h1 className="text-4xl font-bold mb-4">Welcome</h1>

@@ -16,3 +16,6 @@
 ## Langkah 2 Membuat Custom Document
 ![alt text](images/image2.png)
 
+## Langkah 3 Pengaturan Title
+![alt text](images/image3.png)
+
