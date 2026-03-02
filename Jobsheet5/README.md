@@ -42,6 +42,10 @@
 ![alt text](images/tugas1.png)
 ![alt text](images/tugas1-1.png)
 
+## Tugas 2
+![alt text](images/tugas2-1.png)
+![alt text](images/tugas2-2.png)
+
 
 
 
