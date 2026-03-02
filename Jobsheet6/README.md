@@ -22,3 +22,6 @@
 ## Langkah 4 Membuat Custom Eror Page
 ![alt text](images/image4.png)
 
+## Langkah 5 Styling Halaman 404
+![alt text](images/image5.png)
+
