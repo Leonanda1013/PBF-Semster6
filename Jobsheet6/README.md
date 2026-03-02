@@ -10,3 +10,6 @@
 - **NIM**: 2341720149
 - **Kelas**: TI-3D
 
+## Langah 1 Jalankan Project
+![alt text](images/imgae1.png)
+
