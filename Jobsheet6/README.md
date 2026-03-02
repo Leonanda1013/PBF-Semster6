@@ -28,3 +28,6 @@
 ## Langah 6 MEnampilkan Gambar dari Folder Public
 ![alt text](images/image6.png)
 
+## Tugas 1
+![alt text](images/tugas1.png)
+
