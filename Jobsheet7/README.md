@@ -12,3 +12,6 @@
 
 ## Langkah 1 Menjalankan Project
 ![alt text](images/image1.png)
+
+## Langkah 2 Membuat API Product
+![alt text](images/image2.png)
