@@ -31,3 +31,6 @@
 ## Tugas 1
 ![alt text](images/tugas1.png)
 
+## Tugas 2
+![alt text](images/tugas2.png)
+
