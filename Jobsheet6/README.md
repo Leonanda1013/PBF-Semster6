@@ -19,3 +19,6 @@
 ## Langkah 3 Pengaturan Title
 ![alt text](images/image3.png)
 
+## Langkah 4 Membuat Custom Eror Page
+![alt text](images/image4.png)
+
