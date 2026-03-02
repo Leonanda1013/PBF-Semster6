@@ -15,3 +15,6 @@
 
 ## Langkah 2 Membuat API Product
 ![alt text](images/image2.png)
+
+## Langkah 3 Fetch Data API di Frontend
+![alt text](images/image3.png)
