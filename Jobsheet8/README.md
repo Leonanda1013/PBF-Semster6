@@ -19,3 +19,8 @@
 ## Langkah 3 Implementasi Skeleton Loading
 ![alt text](images/image3.png)
 
+
+## Langah 5 Implementasi SWR
+![alt text](images/image5.png)
+Menurut saya, dibandingkan hanya mengandalkan useEffect, penggunaan SWR membuat pengelolaan data menjadi lebih terstruktur, terutama dalam hal penanganan error
+
