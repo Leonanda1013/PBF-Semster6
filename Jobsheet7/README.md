@@ -21,3 +21,6 @@
 
 ## Langkah 5 Setup Firebase
 ![alt text](images/image5.png)
+
+## Langkah 6 Install Firebase
+![alt text](images/image6.png)
