@@ -34,3 +34,10 @@
 ## Langkah 10
 ![alt text](images/image10-1.png)
 ![alt text](images/image10-2.png)
+
+## Tugas 1
+![alt text](images/tugas1.png)
+
+## Tugas 2
+![alt text](images/tugas2-1.png)
+![alt text](images/tgas2-2.png)

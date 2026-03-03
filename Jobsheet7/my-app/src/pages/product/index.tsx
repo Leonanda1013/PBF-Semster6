@@ -8,7 +8,7 @@ type ProductType = {
   size: string;
 };
 
-const kategori = () => {
+const product = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -33,4 +33,4 @@ const kategori = () => {
   );
 };
 
-export default kategori;
+export default product;

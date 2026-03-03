@@ -1,13 +1,30 @@
-import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
-const Category = () => {
-  const { query } = useRouter();
+type categoryType = {
+  id: string;
+  name: string;
+};
+
+const category = () => {
+  const [categorys, setcategorys] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/category")
+      .then((response) => response.json())
+      .then((respondata) => setcategorys(respondata.data))
+      .catch((error) => console.error("Error fetching categorys:", error));
+  }, []);
+
   return (
-    <div>
-      <h1>Halaman Kategori</h1>
-      <p>Category : {Array.isArray(query.slug) ? query.slug.join(" - ") : query.slug}</p>
-    </div>
+    <>
+      <h1>category List</h1>
+      {categorys.map((category: categoryType) => (
+        <div key={category.id}>
+          <h2>{category.name}</h2>
+        </div>
+      ))}
+    </>
   );
 };
 
-export default Category;
+export default category;
