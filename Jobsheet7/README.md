@@ -18,3 +18,6 @@
 
 ## Langkah 3 Fetch Data API di Frontend
 ![alt text](images/image3.png)
+
+## Langkah 5 Setup Firebase
+![alt text](images/image5.png)
