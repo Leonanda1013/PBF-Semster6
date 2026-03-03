@@ -13,5 +13,5 @@
 ## Langkah 1 Setup Data Product
 ![alt text](images/image1.png)
 
-## Langkah 2 
-
+## Langkah 2 Implementasi CSR dengan useEffect
+![alt text](image-1.png)

@@ -1,28 +1,29 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
-import style from "./product.module.scss";
+import styles from "../../product/product.module.scss";
 
-const TampilanProduct = () => {
+type ProductType = {
+  id: string;
+  name: string;
+  price: number;
+  category: string;
+  image: string;
+};
+
+const TampilanProduct = ({ products }: { products: ProductType[] }) => {
   return (
-    <>
-      <head>
-        <title>Product Page</title>
-      </head>
-      <div className={style.container}>
-        {/* Hero Section */}
-        <section className={style.hero}>
-          <h1>Welcome to Product Page</h1>
-          <p>This is hero section</p>
-          <img className={style.hero__image} src="/hero-section.png" alt="Hero Section" />
-        </section>
+    <div className={styles.product}>
+      <h1 className={styles.product__title}>Daftar Product</h1>
 
-        {/* Main Section */}
-        <main className={style.main}>
-          <h2>Main Content</h2>
-          <p>Isi utama website</p>
-        </main>
+      <div className={styles.product__content}>
+        {products.map((item: ProductType) => (
+          <div key={item.id} className={styles.product__content__item}>
+            <img src={item.image} alt={item.name} className={styles.product__content__item__image} />
+            <h2 className={styles.product__content__item__name}>{item.name}</h2>
+            <p className={styles.product__content__item__price}>Rp {item.price.toLocaleString()}</p>
+            <p className={styles.product__content__item__category}>Category: {item.category}</p>
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 
