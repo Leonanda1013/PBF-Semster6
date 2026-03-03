@@ -30,3 +30,7 @@
 
 ## Langkah 9 Ambil Data dari Firestore
 ![alt text](images/image9.png)
+
+## Langkah 10
+![alt text](images/image10-1.png)
+![alt text](images/image10-2.png)
