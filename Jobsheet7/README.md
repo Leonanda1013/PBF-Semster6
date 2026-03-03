@@ -27,3 +27,6 @@
 
 ## Langkah 7 & 8– Konfigurasi Environment Variable agar credensial firebase tidak dapat dilihat saat dipush di repository
 ![alt text](images/image7.png)
+
+## Langkah 9 Ambil Data dari Firestore
+![alt text](images/image9.png)
