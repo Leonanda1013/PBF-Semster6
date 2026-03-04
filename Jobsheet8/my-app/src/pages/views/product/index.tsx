@@ -13,23 +13,33 @@ const TampilanProduct = ({ products }: { products: ProductType[] }) => {
     <div className={styles.product}>
       <h1 className={styles.product__title}>Daftar Product</h1>
 
-      <div className={styles.product__content}>
-        {products.map((item: ProductType) => (
-          <div key={item.id} className={styles.product__content__item}>
-            <img src={item.image} alt={item.name} className={styles.product__content__item__image} />
-            <h2 className={styles.product__content__item__name}>{item.name}</h2>
-            <p className={styles.product__content__item__price}>Rp {item.price.toLocaleString()}</p>
-            <p className={styles.product__content__item__category}>Category: {item.category}</p>
-          </div>
-        ))}
-
+      {products.length > 0 ? (
+        <div className={styles.product__content}>
+          {products.map((product: ProductType) => (
+            <div key={product.id} className={styles.product__content__item}>
+              <div className={styles.product__content__item__image}>
+                <img src={product.image} alt={product.name} width={200} />
+              </div>
+              <h2 className={styles.product__content__item__name}>
+                {product.name}
+              </h2>
+              <p className={styles.product__content__item__category}>
+                Kategori: {product.category}
+              </p>
+              <p className={styles.product__content__item__price}>
+                Rp {product.price.toLocaleString()}
+              </p>
+            </div>
+          ))}
+        </div>
+      ) : (
         <div className={styles.product__content__skeleton}>
           <div className={styles.product__content__skeleton__image}></div>
           <div className={styles.product__content__skeleton__name}></div>
           <div className={styles.product__content__skeleton__category}></div>
           <div className={styles.product__content__skeleton__price}></div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
