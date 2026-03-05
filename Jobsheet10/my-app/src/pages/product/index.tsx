@@ -1,13 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import TampilanProduct from "../views/product/index";
+import TampilanProduct from "../../views/product/index";
 import useSWR from "swr";
-import fetcher from "../utils/swr/fetcher";
+import fetcher from "../../utils/swr/fetcher";
 
 // const fetcher = (url: string) => fetch(url).then((res) => res.json());
 const Product = () => {
-
   const [products, setProducts] = useState([]);
   // const [loading, setLoading] = useState(false);
   const { data, error, isLoading } = useSWR("/api/product", fetcher);

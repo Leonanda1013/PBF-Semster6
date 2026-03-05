@@ -1,4 +1,4 @@
-import TampilanProductDetail from "../views/product/id";
+import TampilanProductDetail from "../../views/product/id";
 
 const ProductDetail = () => {
   return (

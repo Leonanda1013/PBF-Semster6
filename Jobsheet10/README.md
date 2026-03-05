@@ -13,3 +13,7 @@
 ## Langkah 1 Setup Halaman Static
 ![alt text](images/image1.png)
 
+## Langkah 3 Build Production Mode
+![alt text](images/image2.png)
+
+
