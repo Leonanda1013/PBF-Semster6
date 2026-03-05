@@ -1,0 +1,15 @@
+import Product from "./index";
+import { useRouter } from "next/router";
+
+const TampilanProductDetail = () => {
+  const { query } = useRouter();
+  return (
+    <div>
+      <h1>Product Detail Page</h1>
+      <p>Ini adalah halaman detail produk.</p>
+      <p>Product ID: {query.id}</p>
+    </div>
+  );
+};
+
+export default TampilanProductDetail;
