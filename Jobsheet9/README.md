@@ -15,3 +15,8 @@
 
 ## Langkah 2 Implementasi getServerSideProps pada server.tsx
 ![alt text](images/image2.png)
+
+## Langkah 3 Refactor Type
+![alt text](images/image3-1.png)
+![alt text](images/image3-2.png)
+
