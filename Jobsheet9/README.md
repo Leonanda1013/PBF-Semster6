@@ -12,3 +12,6 @@
 
 ## Langkah 1 Setup Halaman SSR
 ![alt text](images/image1.png)
+
+## Langkah 2 Implementasi getServerSideProps pada server.tsx
+![alt text](images/image2.png)
