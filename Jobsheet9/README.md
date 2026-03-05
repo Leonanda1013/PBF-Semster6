@@ -20,3 +20,9 @@
 ![alt text](images/image3-1.png)
 ![alt text](images/image3-2.png)
 
+## Langkah 4 Uji Perbedaan CSR dan SSR
+![vidio gif1](images/vidio4-1.gif)
+![vidio gif2](images/vidio4-2.gif)
+
+
+
