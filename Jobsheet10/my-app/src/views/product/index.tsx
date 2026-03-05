@@ -1,4 +1,4 @@
-import styles from "../../product/product.module.scss";
+import styles from "../../pages/product/product.module.scss";
 
 type ProductType = {
   id: string;
@@ -20,15 +20,9 @@ const TampilanProduct = ({ products }: { products: ProductType[] }) => {
               <div className={styles.product__content__item__image}>
                 <img src={product.image} alt={product.name} width={200} />
               </div>
-              <h2 className={styles.product__content__item__name}>
-                {product.name}
-              </h2>
-              <p className={styles.product__content__item__category}>
-                Kategori: {product.category}
-              </p>
-              <p className={styles.product__content__item__price}>
-                Rp {product.price.toLocaleString()}
-              </p>
+              <h2 className={styles.product__content__item__name}>{product.name}</h2>
+              <p className={styles.product__content__item__category}>Kategori: {product.category}</p>
+              <p className={styles.product__content__item__price}>Rp {product.price.toLocaleString()}</p>
             </div>
           ))}
         </div>

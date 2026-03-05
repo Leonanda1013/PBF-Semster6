@@ -14,7 +14,7 @@ const halamanProductStatic = (props: { products: ProductType[] }) => {
 export default halamanProductStatic;
 
 export async function getStaticProps() {
-  const res = await fetch("http://127.0.0.1:3000/api/products");
+  const res = await fetch("http://localhost:3000/api/product");
   const response: { data: ProductType[] } = await res.json();
   return {
     props: {
