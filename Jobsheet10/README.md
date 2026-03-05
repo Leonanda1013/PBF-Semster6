@@ -10,3 +10,6 @@
 - **NIM**: 2341720149
 - **Kelas**: TI-3D
 
+## Langkah 1 Setup Halaman Static
+![alt text](images/image1.png)
+
