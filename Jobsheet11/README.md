@@ -12,3 +12,11 @@
 
 ## Langkah 1 Membuat Dynamic Route
 ![alt text](images/image1.png)
+
+## Langkah 2 Implementasi CSR (Client Rendering)
+![alt text](images/image2-1.png)
+![alt text](images/image2-2.png)
+![alt text](images/image2-3.png)
+
+## Langkah 3
+
