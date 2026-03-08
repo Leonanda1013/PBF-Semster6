@@ -24,3 +24,7 @@
 
 ![alt text](images/image3-1.png)
 ![alt text](images/image3-2.png)
+
+## Langkah 4 Implementasi SSG
+![alt text](images/image4-1.png)
+![alt text](images/image4-2.png)
