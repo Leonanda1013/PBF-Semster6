@@ -12,3 +12,6 @@
 
 ## Langkah 1 Membuat Middleware
 ![alt text](images/image1.png)
+
+## Langkah 2 Struktur Dasar Middleware
+![alt text](images/image2.png)
