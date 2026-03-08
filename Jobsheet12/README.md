@@ -26,8 +26,13 @@
 1. Buat API Revalidate
 ![alt text](images/image3-1.png)
 2. Tambahkan Parameter Data
-![alt text](images/image3-2.png)
-3. 
+![alt text](images/image4.png)
+3. Tambahkan Token Security
+![alt text](images/image3-3.png)
+
+
+## Langkah 4 Pengujian Manual Revalidation
+![alt text](images/image4.png)
 
 
 
