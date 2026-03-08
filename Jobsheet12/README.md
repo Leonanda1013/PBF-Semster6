@@ -10,6 +10,17 @@
 - **NIM**: 2341720149
 - **Kelas**: TI-3D
 
-
 ## Langkah 1 Tambahkan revalidate
+
 ![alt text](images/image1.png)
+
+## Langkah 2 Pengujian ISR
+
+![alt text](images/image2-1.png)
+
+### hasil
+
+![alt text](images/gif-1.gif)
+
+
+

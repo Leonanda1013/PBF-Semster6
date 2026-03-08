@@ -1,12 +1,26 @@
 import fetcher from "@/utils/swr/fetcher";
 import { useRouter } from "next/router";
 import useSWR from "swr";
+import DetailProduct from "../../views/DetailProduct";
 import { ProductType } from "@/types/Product.type";
-import DetailProduct from "@/views/DetailProduct";
-// Client side
+
 const HalamanProduct = ({ product }: { product: ProductType }) => {
+  {
+    /digunakan client-side rendering/;
+  }
+  // // const Router = useRouter();
+  // // console.log(Router);
   // const { query } = useRouter();
-  // const { data, error, isLoading } = useSWR(`/api/product/${query.product}`, fetcher);
+  // const { data, error, isLoading } = useSWR(
+  //   `/api/products/${query.produk}`,
+  //   fetcher,
+  // );
+  // return (
+  //   <div>
+  //     <DetailProduk products={isLoading ? [] : data.data} />
+  //   </div>
+  // );
+
   return (
     <div>
       <DetailProduct products={product} />
@@ -16,34 +30,30 @@ const HalamanProduct = ({ product }: { product: ProductType }) => {
 
 export default HalamanProduct;
 
-// server side
-// const HalamanProduct = ({ product }: { product: ProductType }) => {
-//   return (
-//     <div>
-//       <DetailProduct products={product} />
-//     </div>
-//   );
-// };
-
-// export default HalamanProduct;
-
-// export async function getServerSideProps({ params }: { params: { product: string } }) {
-//   const res = await fetch(`http://localhost:3000/api/product/${params?.product}`);
-//   const respone = await res.json();
-
-//   return {
-//     props: {
-//       product: respone.data,
-//     },
-//   };
+{
+  /digunakan server-side rendering/;
+}
+// //export async function getServerSideProps({ params }: { params: { produk: string } }) {
+//     const res = await fetch(`http://localhost:3000/api/produk/${params?.produk}`);
+//     const respone = await res.json();
+//     // console.log("Data produk yang diambil dari API:", respone);
+//     return {
+//         props: {
+//             product: respone.data, // Pastikan untuk memberikan nilai default jika data tidak tersedia
+//         },
+//      };
 // }
 
-// SSG
+{
+  /digunakan static-site generation/;
+}
 export async function getStaticPaths() {
-  const res = await fetch(`http://localhost:3000/api/products`);
-  const respone = await res.json();
+  const res = await fetch("http://localhost:3000/api/products");
+  const response = await res.json();
 
-  const paths = respone.data.map((product: ProductType) => ({ params: { product: product.id } }));
+  const paths = response.data.map((product: ProductType) => ({
+    params: { product: product.id },
+  }));
   return {
     paths,
     fallback: false,
