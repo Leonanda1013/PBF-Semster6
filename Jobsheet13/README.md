@@ -37,4 +37,16 @@
 ![alt text](images/imageUJI.png)
 ![alt text](images/gif-3.gif)
 
+## Pertanyaan
+
+1. Middleware lebih aman dibanding useEffect karena berjalan di server sebelum halaman ditampilkan ke user.
+
+2. Middleware tidak menimbulkan glitch karena proses pengecekan dilakukan sebelum halaman dirender.
+
+3. Jika semua halaman diproteksi tanpa pengecualian, user bisa terjebak redirect dan tidak bisa membuka halaman apa pun.
+
+4. Middleware tidak diperlukan jika halaman tidak membutuhkan autentikasi atau pengecekan akses.
+
+5. Middleware digunakan untuk memproses request sebelum halaman dibuka, sedangkan API route digunakan untuk membuat endpoint backend yang mengirim atau memproses data.
+
 
