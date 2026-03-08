@@ -11,10 +11,19 @@
 - **Kelas**: TI-3D
 
 ## Langkah 1 Membuat Middleware
+
 ![alt text](images/image1.png)
 
 ## Langkah 2 Struktur Dasar Middleware
+
 ![alt text](images/image2.png)
 
 ## Langkah 3 Redirect Sederhana
+
 ![alt text](images/image3.png)
+
+## Langkah 4 Batasi Route Tertentu
+
+![alt text](images/gif-1.gif)
+
+### Ket: Halaman Lain tetap normal, hanya halaman about dan product yang redirect
