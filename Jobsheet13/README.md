@@ -27,3 +27,7 @@
 ![alt text](images/gif-1.gif)
 
 ### Ket: Halaman Lain tetap normal, hanya halaman about dan product yang redirect
+
+## Langkah 5 Simulasi Sistem Login
+
+![alt text](images/gif-2.gif)
