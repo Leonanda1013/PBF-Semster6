@@ -31,3 +31,10 @@
 ## Langkah 5 Simulasi Sistem Login
 
 ![alt text](images/gif-2.gif)
+
+## UJI
+### KET: saat flase 3 halaman ini tidak bisa terbuka dan saat true kebalikkannya
+![alt text](images/imageUJI.png)
+![alt text](images/gif-3.gif)
+
+
