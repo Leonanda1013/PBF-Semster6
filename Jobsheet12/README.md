@@ -22,5 +22,12 @@
 
 ![alt text](images/gif-1.gif)
 
+## Langkah 3 On Demain Revaliation
+1. Buat API Revalidate
+![alt text](images/image3-1.png)
+
+
+
+
 
 
