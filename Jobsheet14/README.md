@@ -39,3 +39,14 @@
 ## Pengujian & Fix Code
 ![alt text](images/gif1)
 
+## Pertanyaan
+1. Session menggunakan JWT karena data login dapat disimpan secara aman di token tanpa perlu menyimpan session di server.
+
+2. authorize() digunakan untuk memverifikasi login user, sedangkan callback jwt() digunakan untuk menyimpan data user ke dalam token.
+
+3. Middleware perlu getToken() untuk mengecek apakah user sudah login atau belum.
+
+4. Jika NEXTAUTH_SECRET tidak digunakan, token bisa lebih mudah dimanipulasi atau tidak aman.
+
+5. Autentikasi adalah proses mengecek identitas user, sedangkan otorisasi adalah menentukan hak akses user terhadap suatu halaman.
+
