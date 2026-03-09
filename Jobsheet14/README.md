@@ -16,3 +16,6 @@
 
 ## Langkah 2 Konfigurasi API Auth
 ![alt text](images/image2.png)
+
+## Langkah 3 Tambahkan Secret
+![alt text](images/image3.png)
