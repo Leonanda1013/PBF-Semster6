@@ -29,7 +29,7 @@ export const authOptions: NextAuthOptions = {
       },
     }),
   ],
-
+  
   callbacks: {
     async jwt({ token, account, profile, user }: any) {
       if (account?.provider === "credentials" && user) {

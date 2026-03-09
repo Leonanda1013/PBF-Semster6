@@ -27,3 +27,7 @@
 ![alt text](images/image5.png)
 ![alt text](images/image5-1.png)
 ![alt text](images/image5-2.png)
+
+
+## Menambahkan Data Tambahan
+![alt text](images/imag6.png)
