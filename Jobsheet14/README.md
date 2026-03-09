@@ -31,3 +31,7 @@
 
 ## Menambahkan Data Tambahan
 ![alt text](images/imag6.png)
+
+
+## Proteksi Halaman Profil
+![alt text](images/image7.png)

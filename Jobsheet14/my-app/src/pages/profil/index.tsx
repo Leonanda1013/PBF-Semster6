@@ -1,15 +1,13 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useSession } from "next-auth/react";
 
 const Profil = () => {
-  const [isLogin, setIsLogin] = useState(false);
-  const { push } = useRouter();
-  useEffect(() => {
-    if (!isLogin) {
-      push("/auth/login");
-    }
-  }, []);
-  return <div>profil page</div>;
+  const {data}:any = useSession();
+  return (
+    <div>
+      <h1>Halaman Profile</h1>
+      <h1>Selamat Datang {data?.user?.fullname}</h1>
+    </div>
+  )
 };
 
 export default Profil;
