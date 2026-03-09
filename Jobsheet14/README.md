@@ -35,3 +35,7 @@
 
 ## Proteksi Halaman Profil
 ![alt text](images/image7.png)
+
+## Pengujian & Fix Code
+![alt text](images/gif1)
+
