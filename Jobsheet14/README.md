@@ -22,3 +22,8 @@
 
 ## Langkah 4 Tambahkan Session Provider
 ![alt text](images/image4.png)
+
+## Tambahkan Tombol Login dan Logout
+![alt text](images/image5.png)
+![alt text](images/image5-1.png)
+![alt text](images/image5-2.png)
