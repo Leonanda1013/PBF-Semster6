@@ -10,6 +10,9 @@
 - **NIM**: 2341720149
 - **Kelas**: TI-3D
 
-## Langkah 1
+## Langkah 1 Install Next AUth
 
 ![alt text](images/image1.png)
+
+## Langkah 2 Konfigurasi API Auth
+![alt text](images/image2.png)
