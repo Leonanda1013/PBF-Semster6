@@ -19,3 +19,6 @@
 
 ## Langkah 3 Tambahkan Secret
 ![alt text](images/image3.png)
+
+## Langkah 4 Tambahkan Session Provider
+![alt text](images/image4.png)
