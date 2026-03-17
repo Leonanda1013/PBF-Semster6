@@ -8,14 +8,21 @@ const TampilanRegister = () => {
   const { push } = useRouter();
   const [error, setError] = useState("");
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    setError("")
-    setIsLoading(true)
+    setError("");
+    setIsLoading(true);
     event.preventDefault();
     const form = event.currentTarget;
     const formData = new FormData(event.currentTarget);
     const email = formData.get("email") as string;
     const fullname = formData.get("Fullname") as string;
     const password = formData.get("Password") as string;
+
+    if (password.length < 6) {
+      setError("Password minimal 6 karakter");
+      setIsLoading(false);
+      return;
+    }
+
     const response = await fetch("/api/register", {
       method: "POST",
       headers: {
@@ -23,8 +30,6 @@ const TampilanRegister = () => {
       },
       body: JSON.stringify({ email, fullname, password }),
     });
-    // const result = await response.json();
-    // console.log(result);
     if (response.status === 200) {
       form.reset();
       // event.currentTarget.reset();
@@ -45,7 +50,7 @@ const TampilanRegister = () => {
             <label htmlFor="email" className={styles.register__form__item__label}>
               Email
             </label>
-            <input type="email" id="email" name="email" placeholder="Email" className={styles.register__form__item__input} />
+            <input type="email" id="email" name="email" placeholder="Email" required className={styles.register__form__item__input} />
           </div>
 
           <div className={styles.register__form__item}>
@@ -59,7 +64,7 @@ const TampilanRegister = () => {
             <label htmlFor="Password" className={styles.register__form__item__label}>
               Password
             </label>
-            <input type="password" id="Password" name="Password" placeholder="Password" className={styles.register__form__item__input} />
+            <input type="password" id="Password" name="Password" placeholder="Password" minLength={6} required className={styles.register__form__item__input} />
           </div>
           <button type="submit" className={styles.register__form__item__button} disabled={isLoading}>
             {isLoading ? "Loading..." : "Register"}

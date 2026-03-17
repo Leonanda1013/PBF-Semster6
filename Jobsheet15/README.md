@@ -20,7 +20,7 @@
 ## Langkah 3 Install brcypt
 ![alt text](images/gif2.gif)
 ### ERROR
-![alt text](images/image3.png.png)
+![alt text](images/image3.png)
 ## UJI 1 Register Baru
 ![alt text](images/uji1.gif)
 
@@ -29,5 +29,20 @@
 
 ## Uji 3 Method Get
 ![alt text](images/uji3.png)
+
+## Tugas 
+1. Saya sudah melakukannya sama seperti praktikum sebelumnya
+![alt text](images/gif2.gif)
+
+2. Membuat validasi email dan password
+![alt text](images/tugas2.png)
+![alt text](images/tugas2-2.png)
+
+3. Member
+![alt text](images/tugas3.png)
+5. UJI
+![alt text](images/giftugas.gif)
+
+
 
 
