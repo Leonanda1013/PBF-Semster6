@@ -21,5 +21,8 @@
 ![alt text](images/gif2.gif)
 ### ERROR
 ![alt text](images/image3.png.png)
+## UJI 1 Register Baru
+![alt text](images/uji1.gif)
+
 
 
