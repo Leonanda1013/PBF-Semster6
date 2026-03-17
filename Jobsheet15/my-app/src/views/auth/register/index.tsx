@@ -8,6 +8,8 @@ const TampilanRegister = () => {
   const { push } = useRouter();
   const [error, setError] = useState("");
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    setError("")
+    setIsLoading(true)
     event.preventDefault();
     const form = event.currentTarget;
     const formData = new FormData(event.currentTarget);
@@ -35,7 +37,8 @@ const TampilanRegister = () => {
   };
   return (
     <div className={styles.register}>
-      <h1 className={styles.register_title}>Halaman Register</h1>
+      {error && <p className={styles.register__error}>{error}</p>}
+      <h1 className={styles.register__title}>Halaman Register</h1>
       <div className={styles.register__form}>
         <form onSubmit={handleSubmit}>
           <div className={styles.register__form__item}>
@@ -58,13 +61,13 @@ const TampilanRegister = () => {
             </label>
             <input type="password" id="Password" name="Password" placeholder="Password" className={styles.register__form__item__input} />
           </div>
-          <button type="submit" className={styles.register__form__item__button}>
-            Register
+          <button type="submit" className={styles.register__form__item__button} disabled={isLoading}>
+            {isLoading ? "Loading..." : "Register"}
           </button>
         </form>
         <br />
         <p className={styles.register__form__item__text}>
-          Sudah punya akun?<Link href="auth/login">Ke Halaman Login</Link>
+          Sudah punya akun? <Link href="/auth/login">Ke Halaman Login</Link>
         </p>
       </div>
     </div>

@@ -17,4 +17,9 @@
 ## Langkah 2 Membuat API register
 ![alt text](images/gif1.gif)
 
-## 
+## Langkah 3 Install brcypt
+![alt text](images/gif2.gif)
+### ERROR
+![alt text](images/image3.png.png)
+
+
