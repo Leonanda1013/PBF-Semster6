@@ -27,4 +27,7 @@
 ## UJI 2 Email sudah ada
 ![alt text](images/uji2.gif)
 
+## Uji 3 Method Get
+![alt text](images/uji3.png)
+
 
