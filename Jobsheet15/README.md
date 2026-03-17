@@ -24,5 +24,7 @@
 ## UJI 1 Register Baru
 ![alt text](images/uji1.gif)
 
+## UJI 2 Email sudah ada
+![alt text](images/uji2.gif)
 
 
