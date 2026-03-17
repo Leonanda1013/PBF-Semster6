@@ -13,3 +13,8 @@
 
 ## Langkah 1 Membuat Regiter View
 ![alt text](images/image1.png)
+
+## Langkah 2 Membuat API register
+![alt text](images/gif1.gif)
+
+## 
