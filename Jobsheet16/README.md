@@ -23,3 +23,6 @@
 
 ## Langkah 4 Menambahkan Role ke Token
 ![alt text](images/image3.png)
+
+## Langkah 5 CallBack URL Logic
+![alt text](images/image5.png)
