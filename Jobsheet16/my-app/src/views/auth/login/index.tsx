@@ -64,33 +64,35 @@ const TampilanLogin = () => {
     }
   };
   return (
-    <div className={styles.login}>
-      {error && <p className={styles.login__error}>{error}</p>}
-      <h1 className={styles.login__title}>Halaman Login</h1>
-      <div className={styles.login__form}>
-        <form onSubmit={handleSubmit}>
-          <div className={styles.login__form__item}>
-            <label htmlFor="email" className={styles.login__form__item__label}>
-              Email
-            </label>
-            <input type="email" id="email" name="email" placeholder="Email" required className={styles.login__form__item__input} />
-          </div>
-          <div className={styles.login__form__item}>
-            <label htmlFor="password" className={styles.login__form__item__label}>
-              Password
-            </label>
-            <input type="password" id="password" name="password" placeholder="password" minLength={6} required className={styles.login__form__item__input} />
-          </div>
-          <button type="submit" className={styles.login__form__item__button} disabled={isLoading}>
-            {isLoading ? "Loading..." : "Login"}
-          </button>
-        </form>
-        <br />
-        <p className={styles.login__form__item__text}>
-          Sudah punya akun? <Link href="/auth/login">Ke Halaman Login</Link>
-        </p>
+    <>
+      <div className={styles.login}>
+        {error && <p className={styles.login__error}>{error}</p>}
+        <h1 className={styles.login__title}>Halaman Login</h1>
+        <div className={styles.login__form}>
+          <form onSubmit={handleSubmit}>
+            <div className={styles.login__form__item}>
+              <label htmlFor="email" className={styles.login__form__item__label}>
+                Email
+              </label>
+              <input type="email" id="email" name="email" placeholder="Email" required className={styles.login__form__item__input} />
+            </div>
+            <div className={styles.login__form__item}>
+              <label htmlFor="password" className={styles.login__form__item__label}>
+                Password
+              </label>
+              <input type="password" id="password" name="password" placeholder="password" minLength={6} required className={styles.login__form__item__input} />
+            </div>
+            <button type="submit" className={styles.login__form__item__button} disabled={isLoading}>
+              {isLoading ? "Loading..." : "Login"}
+            </button>
+          </form>
+          <br />
+          <p className={styles.login__form__item__text}>
+            Sudah punya akun? <Link href="/auth/login">Ke Halaman Login</Link>
+          </p>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

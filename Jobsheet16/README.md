@@ -20,3 +20,6 @@
 
 ## Langkah 3 Authorize di NextAuth
 ![alt text](images/image3.png)
+
+## Langkah 4 Menambahkan Role ke Token
+![alt text](images/image3.png)
