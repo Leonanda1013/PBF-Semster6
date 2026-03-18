@@ -6,4 +6,4 @@ function middleware(req: NextRequest) {
   return NextResponse.next();
 }
 
-export default withAuth(middleware, ["/profil"]);
+export default withAuth(middleware, ["/profil","/admin"]);

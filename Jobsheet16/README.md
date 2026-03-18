@@ -26,3 +26,7 @@
 
 ## Langkah 5 CallBack URL Logic
 ![alt text](images/image5.png)
+
+## Langkah 6 Membuat Halaman Admin dan Authorize
+### Hanya admin yang bisa masuk halaman admin
+![alt text](images/gif3.gif)
