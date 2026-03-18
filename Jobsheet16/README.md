@@ -15,4 +15,6 @@
 **Saat Klik Sign In akan masuk ke halaman Login** <br>
 ![alt text](images/gif1.gif)
 
-## 
+## Langkah 2 Handle Login Frontend
+![alt text](images/image2.png)
+
