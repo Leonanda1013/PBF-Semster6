@@ -30,3 +30,6 @@
 ## Langkah 6 Membuat Halaman Admin dan Authorize
 ### Hanya admin yang bisa masuk halaman admin
 ![alt text](images/gif3.gif)
+
+## UJI
+![alt text](images/uji.gif)
