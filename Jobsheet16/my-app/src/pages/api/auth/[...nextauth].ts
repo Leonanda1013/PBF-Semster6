@@ -1,6 +1,7 @@
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-
+import bcrypt from "bcrypt";
+import { signIn } from "@/utils/db/servicefirebase";
 export const authOptions: NextAuthOptions = {
   session: {
     strategy: "jwt",
@@ -10,26 +11,32 @@ export const authOptions: NextAuthOptions = {
     CredentialsProvider({
       name: "credentials",
       credentials: {
-        fullname: { label: "Full Name", type: "text" },
+        // fullname: { label: "Full Name", type: "text" },
         email: { label: "Email", type: "email" },
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        const user: any = {
-          id: "1",
-          email: credentials?.email,
-          password: credentials?.password,
-          fullname: credentials?.fullname,
-        };
+        if (!credentials?.email || !credentials?.password) return null;
+
+        const user: any = await signIn(credentials.email);
+
         if (user) {
-          return user;
-        } else {
-          return null;
+          const isPasswordValid = await bcrypt.compare(credentials.password, user.password);
+          if (isPasswordValid) {
+            // Pastikan mengembalikan object user yang bersih
+            return {
+              id: user.id,
+              email: user.email,
+              fullname: user.fullname,
+              role: user.role,
+            };
+          }
         }
+        return null;
       },
     }),
   ],
-  
+
   callbacks: {
     async jwt({ token, account, profile, user }: any) {
       if (account?.provider === "credentials" && user) {
@@ -50,7 +57,7 @@ export const authOptions: NextAuthOptions = {
   },
 
   pages: {
-    signIn: "/auth/login"
-  }
+    signIn: "/auth/login",
+  },
 };
 export default NextAuth(authOptions);

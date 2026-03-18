@@ -77,7 +77,7 @@ const TampilanLogin = () => {
           </div>
           <div className={styles.login__form__item}>
             <label htmlFor="password" className={styles.login__form__item__label}>
-              password
+              Password
             </label>
             <input type="password" id="password" name="password" placeholder="password" minLength={6} required className={styles.login__form__item__input} />
           </div>

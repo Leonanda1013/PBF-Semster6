@@ -18,3 +18,5 @@
 ## Langkah 2 Handle Login Frontend
 ![alt text](images/image2.png)
 
+## Langkah 3 Authorize di NextAuth
+![alt text](images/image3.png)
