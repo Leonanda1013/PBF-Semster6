@@ -1,0 +1,17 @@
+# Laporan Praktikum Jobsheet 19
+
+## Identitas
+
+- **Mata Kuliah**: Pemrograman Berbasis Framework
+- **Program Studi**: Teknik Informatika
+- **Semester**: 6
+- **Praktikum**: Jobsheet 19
+- **Nama**: Vincentius Leonanda Prabowo
+- **NIM**: 2341720149
+- **Kelas**: TI-3D
+
+## Praktikum 1 - Setup Jest di Next.js
+![alt text](images/image1.png)
+![alt text](images/image2.png)
+
+
