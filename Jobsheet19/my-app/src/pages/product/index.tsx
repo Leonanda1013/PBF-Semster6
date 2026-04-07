@@ -41,7 +41,7 @@ const Product = () => {
   const { data, error, isLoading } = useSWR("/api/product", fetcher);
   return (
     <>
-      <TampilanProduct products={isLoading ? [] : data.data} />
+      <TampilanProduct products={isLoading ? [] : data?.data || []} />
     </>
   );
 };

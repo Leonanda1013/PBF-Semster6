@@ -30,3 +30,7 @@
 
 ## Praktikum 6 - Testing dengan getByTestId
 ![alt text](images/image8.png)
+
+## Praktikum 7 & 8 Testing Page dengan Router
+![alt text](images/image9.png)
+![alt text](images/image10.png)
