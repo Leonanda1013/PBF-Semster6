@@ -14,4 +14,6 @@
 ![alt text](images/image1.png)
 ![alt text](images/image2.png)
 
+## Praktikum 2 - Struktur Folder Setting
 
+![alt text](images/image3.png)
