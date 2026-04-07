@@ -1,4 +1,4 @@
-# Laporan Praktikum Jobsheet 17
+# Laporan Praktikum Jobsheet 18
 
 ## Identitas
 
@@ -22,9 +22,20 @@
 
 ## Langkah 4 - Optimasi Script
 ![alt text](images/image4.png)</br>
-Perbedaan utamanya adalah React/JSX merender teks langsung (lebih cepat, SEO-friendly, dan aman), sedangkan <Script> dengan manipulasi DOM (innerHTML) menunda render (bisa berkedip), kurang baik untuk SEO, dan berisiko keamanan.
+
+<p>Perbedaan utamanya adalah React/JSX merender teks langsung (lebih cepat, SEO-friendly, dan aman), sedangkan Script dengan manipulasi DOM (innerHTML) menunda render (bisa berkedip), kurang baik untuk SEO, dan berisiko keamanan.</p>
 
 ## Langkah 5 - Optimasi Avatar
 ![alt text](images/image5.png)
+
+## After
+![alt text](images/image6.png)
+
+## Before
+![alt text](images/image7.png)
+
+## Pembahasan 
+Performance fokus ke speed → naik ✔ </br>
+Best Practices fokus ke standar & keamanan → bisa turun ❌ jika ada teknik yang “tidak ideal”
 
 
