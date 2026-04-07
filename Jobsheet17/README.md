@@ -121,6 +121,7 @@ export const authOptions: NextAuthOptions = {
 export default NextAuth(authOptions);
 ```
 
-# Tambahkan Button Login Google
+# Langkah 6 - Tambahkan Button Login Google
 
-
+![alt text](images/image4.png)
+![alt text](images/image5.png)
