@@ -38,4 +38,16 @@
 Performance fokus ke speed → naik ✔ </br>
 Best Practices fokus ke standar & keamanan → bisa turun ❌ jika ada teknik yang “tidak ideal”
 
+## Pertanyaan
+
+1. `<img>` biasa tidak optimal karena tidak mendukung otomatisasi seperti lazy loading, resizing, dan format modern seperti yang dimiliki `next/image`.
+
+2. Font CDN mengambil font dari server eksternal (mudah digunakan namun bergantung jaringan), sedangkan `next/font` meng-host font secara lokal sehingga lebih stabil dan optimal.
+
+3. Script dapat memperlambat website karena memblokir rendering dan menambah beban eksekusi pada main thread.
+
+4. Dynamic import digunakan untuk menunda loading komponen atau library yang tidak dibutuhkan saat initial render (lazy loading).
+
+5. Bundle size yang besar memperlambat waktu load dan parsing sehingga menurunkan pengalaman pengguna (UX), terutama pada perangkat atau jaringan lambat.
+
 
