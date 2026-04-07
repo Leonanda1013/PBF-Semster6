@@ -25,3 +25,6 @@
 ![alt text](images/image3.png)
 
 ## Langkah 3 Enviroment Variable
+![alt text](images/image6.png)
+
+## Langkah 4 
