@@ -20,3 +20,7 @@
 
 ## Praktikum 3 - Testing Halaman About
 ![alt text](images/image4.png)
+
+## Praktikum 4 - Converage report
+![alt text](images/image5.png)
+![alt text](images/image6.png)
