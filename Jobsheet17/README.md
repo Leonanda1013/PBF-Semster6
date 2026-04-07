@@ -177,6 +177,6 @@ Tanpa database, sistem tidak bisa menyimpan role, mengontrol akses, atau mempert
 ![alt text](images/image9.png)
 
 3. Login Github
-![alt text](image10.png)
-![alt text](image11.png)
+![alt text](images/image10.png)
+![alt text](images/image11.png)
 
