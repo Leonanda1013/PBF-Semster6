@@ -16,3 +16,6 @@
 
 ## Langkah 2 - Optimasi Gambar Remote
 ![alt text](images/image2.png)
+
+## Langkah 3 - Optimasi Font
+![alt text](images/image3.png)
