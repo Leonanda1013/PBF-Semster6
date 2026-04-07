@@ -146,4 +146,27 @@ export default NextAuth(authOptions);
 ![alt text](images/image7.png)
 
 
+## Analisis & Diskusi – NextAuth
+
+### 1. Apa perbedaan login credential dan login Google?
+
+Credentials memakai email-password yang diverifikasi database sendiri, sedangkan Google login menggunakan OAuth dari Google tanpa menyimpan password.
+
+### 2. Mengapa data Google tetap perlu disimpan ke database?
+
+Data Google disimpan agar sistem bisa mengenali user, menambah role, dan mengelola fitur internal.
+
+### 3. Apa fungsi JWT callback?
+
+JWT callback berfungsi menyimpan dan membawa data user dalam token agar tidak perlu query database berulang.
+
+### 4. Mengapa perlu multi-role?
+
+Multi-role diperlukan untuk membedakan hak akses user seperti admin dan user.
+
+### 5. Apa risiko jika tidak menyimpan user ke database?
+
+Tanpa database, sistem tidak bisa menyimpan role, mengontrol akses, atau mempertahankan data user.
+
+
 
