@@ -24,5 +24,7 @@
 ![alt text](images/image4.png)</br>
 Perbedaan utamanya adalah React/JSX merender teks langsung (lebih cepat, SEO-friendly, dan aman), sedangkan <Script> dengan manipulasi DOM (innerHTML) menunda render (bisa berkedip), kurang baik untuk SEO, dan berisiko keamanan.
 
-##
+## Langkah 5 - Optimasi Avatar
+![alt text](images/image5.png)
+
 
