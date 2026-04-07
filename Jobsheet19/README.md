@@ -27,3 +27,6 @@
 
 ## Praktikum 5 - Konfigurasi Converage Lengkap
 ![alt text](images/image7.png)
+
+## Praktikum 6 - Testing dengan getByTestId
+![alt text](images/image8.png)

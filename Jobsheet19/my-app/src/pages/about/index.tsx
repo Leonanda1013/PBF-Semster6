@@ -2,7 +2,8 @@ export default function About() {
   return (
     <div style={{ padding: "20px" }}>
       <h1>Ini halaman about</h1>
-      <h1>About Me</h1>
+      {/* <h1>About Me</h1> */}
+      <h1 data-testid="title">About Page</h1>
       <p>
         <strong>Nama Mahasiswa:</strong> Vincentius Leonanda Prabowo
       </p>
