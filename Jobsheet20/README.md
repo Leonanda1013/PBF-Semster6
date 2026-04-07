@@ -27,4 +27,5 @@
 ## Langkah 3 Enviroment Variable
 ![alt text](images/image6.png)
 
-## Langkah 4 
+## Langkah 4 Konfigurasi Google Outh Production
+![alt text](images/image7.png)
