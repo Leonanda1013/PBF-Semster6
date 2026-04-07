@@ -169,4 +169,14 @@ Multi-role diperlukan untuk membedakan hak akses user seperti admin dan user.
 Tanpa database, sistem tidak bisa menyimpan role, mengontrol akses, atau mempertahankan data user.
 
 
+## Tugas Mandiri
+1. Halaman dan role editor
+![alt text](images/image8.png)
+
+2. Github credential
+![alt text](images/image9.png)
+
+3. Login Github
+![alt text](image10.png)
+![alt text](image11.png)
 

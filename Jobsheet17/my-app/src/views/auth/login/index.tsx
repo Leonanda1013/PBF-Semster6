@@ -47,49 +47,27 @@ const Tampilanlogin = () => {
               <label htmlFor="email" className={styles.login__form__item__label}>
                 Email
               </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email"
-                className={styles.login__form__item__input}
-              />
+              <input type="email" id="email" name="email" placeholder="Email" className={styles.login__form__item__input} />
             </div>
             <div className={styles.login__form__item}>
-              <label
-                htmlFor="Password"
-                className={styles.login__form__item__label}
-              >
+              <label htmlFor="Password" className={styles.login__form__item__label}>
                 Password
               </label>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                placeholder="password"
-                className={styles.login__form__item__input}
-              />
+              <input type="password" id="password" name="password" placeholder="password" className={styles.login__form__item__input} />
             </div>
-            <button
-              type="submit"
-              className={styles.login__form__item__button}
-              disabled={isLoading}
-            >
+            <button type="submit" className={styles.login__form__item__button} disabled={isLoading}>
               {isLoading ? "Loading..." : "login"}
             </button>{" "}
             <br /> <br />
-            <button
-              onClick={() => signIn("google", { callbackUrl, redirect: false })}
-              className={styles.login__form__item__button}
-              disabled={isLoading}
-            >
+            <button onClick={() => signIn("google", { callbackUrl, redirect: false })} className={styles.login__form__item__button} disabled={isLoading}>
               {isLoading ? "Loading..." : "sign in with google"}
             </button>
+            <br /> <br />
+            <button onClick={() => signIn("github")}>Sign in with GitHub</button>
           </form>
           <br />
           <p className={styles.login__form__item__text}>
-            tidak punya {"'"} akun?{" "}
-            <Link href="/auth/register">Ke Halaman Register</Link>
+            tidak punya {"'"} akun? <Link href="/auth/register">Ke Halaman Register</Link>
           </p>
         </div>
       </div>
