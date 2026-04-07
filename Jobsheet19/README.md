@@ -24,3 +24,6 @@
 ## Praktikum 4 - Converage report
 ![alt text](images/image5.png)
 ![alt text](images/image6.png)
+
+## Praktikum 5 - Konfigurasi Converage Lengkap
+![alt text](images/image7.png)
