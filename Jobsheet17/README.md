@@ -14,3 +14,6 @@
 ## Langkah 1 & 2 Masuk ke Google CLoude Console & Buat Project Baru
 ![alt text](images/image1.png)
 
+## Langkah 3 – Konfigurasi OAuth Consent Screen
+![alt text](images/image2.png)
+
