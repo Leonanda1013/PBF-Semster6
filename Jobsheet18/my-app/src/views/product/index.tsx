@@ -1,5 +1,6 @@
 import styles from "../../pages/product/product.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 type ProductType = {
   id: string;
@@ -23,7 +24,7 @@ const TampilanProduct = ({ products }: { products: ProductType[] }) => {
               className={styles.product__content__item}
             >
               <div className={styles.product__content__item__image}>
-                <img src={product.image} alt={product.name} width={200} />
+                <Image src={product.image} alt={product.name} width={200} height={300} />
               </div>
 
               <h2 className={styles.product__content__item__name}>

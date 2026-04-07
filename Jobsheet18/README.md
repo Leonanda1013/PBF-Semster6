@@ -14,4 +14,5 @@
 ## Langkah 1 - Optimasi Gambar Lokal
 ![alt text](images/image1.png)
 
-## Langkah 2 -
+## Langkah 2 - Optimasi Gambar Remote
+![alt text](images/image2.png)
