@@ -17,7 +17,7 @@ export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
 
   providers: [
-    // 🔐 LOGIN EMAIL
+    // 🔐 LOGIN EMAIL & PASSWORD
     CredentialsProvider({
       name: "credentials",
       credentials: {
@@ -56,19 +56,22 @@ export const authOptions: NextAuthOptions = {
 
   callbacks: {
     async jwt({ token, account, profile, user }: any) {
-      // 🔹 Credentials
+      // 🔹 LOGIN CREDENTIALS
       if (account?.provider === "credentials" && user) {
         token.email = user.email;
         token.fullname = user.fullname;
         token.role = user.role;
       }
 
-      // 🔹 Google
+      // 🔹 LOGIN GOOGLE (AMAN & STABLE)
       if (account?.provider === "google") {
         const data = {
-          fullname: user?.name || profile?.name,
-          email: user?.email || profile?.email,
-          image: user?.image || profile?.picture,
+          fullname:
+            user?.name || profile?.name || token.fullname || "Unknown",
+          email:
+            user?.email || profile?.email || token.email || "",
+          image:
+            user?.image || profile?.picture || token.image || "",
           type: "google",
         };
 

@@ -128,3 +128,22 @@ export default NextAuth(authOptions);
 
 # Langkah 7 - Simpan data Google ke Database
 ![alt text](images/image6.png)
+
+# UJI
+1. Data Tersimapn Di FireStore
+![alt text](images/image6.png)
+
+2. Login Google kedua kali
+![alt text](images/image6.png)
+
+3. User Role member akses admin
+![alt text](images/gif1.gif)
+
+4. Admin akses admin
+![alt text](images/image7.png)
+
+5. Avatar tampil
+![alt text](images/image7.png)
+
+
+
