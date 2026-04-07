@@ -19,3 +19,10 @@
 
 ## Langkah 3 - Optimasi Font
 ![alt text](images/image3.png)
+
+## Langkah 4 - Optimasi Script
+![alt text](images/image4.png)</br>
+Perbedaan utamanya adalah React/JSX merender teks langsung (lebih cepat, SEO-friendly, dan aman), sedangkan <Script> dengan manipulasi DOM (innerHTML) menunda render (bisa berkedip), kurang baik untuk SEO, dan berisiko keamanan.
+
+##
+
