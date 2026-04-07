@@ -17,3 +17,6 @@
 ## Praktikum 2 - Struktur Folder Setting
 
 ![alt text](images/image3.png)
+
+## Praktikum 3 - Testing Halaman About
+![alt text](images/image4.png)
