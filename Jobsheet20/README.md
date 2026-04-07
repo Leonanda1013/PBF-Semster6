@@ -24,5 +24,4 @@
 ![alt text](images/image4.png)
 ![alt text](images/image3.png)
 
-# Langkah 3 - FIx
-![alt text](images/image5.png)
+## Langkah 3 Enviroment Variable
