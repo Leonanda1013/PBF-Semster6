@@ -1,4 +1,4 @@
-import { getFirestore, collection, getDocs, Firestore, getDoc, doc, query, addDoc, where } from "firebase/firestore";
+import { getFirestore, collection, getDocs, Firestore, getDoc, doc, query, addDoc, where, updateDoc } from "firebase/firestore";
 import app from "./firebase";
 import bcrypt from "bcrypt";
 
@@ -18,7 +18,6 @@ export async function retrieveDataByID(collectionName: string, id: string) {
   const data = snapshot.data();
   return data;
 }
-
 export async function signIn(email: string) {
   const q = query(collection(db, "users"), where("email", "==", email));
   const querySnapshot = await getDocs(q);
@@ -32,7 +31,6 @@ export async function signIn(email: string) {
     return null;
   }
 }
-
 export async function signUp(
   userData: {
     email: string;
@@ -57,7 +55,7 @@ export async function signUp(
     });
   } else {
     userData.password = await bcrypt.hash(userData.password, 10);
-    userData.role = "member";
+    userData.role = "user";
     await addDoc(collection(db, "users"), userData)
       .then(() => {
         callback({
@@ -71,5 +69,42 @@ export async function signUp(
           message: error.message,
         });
       });
+  }
+}
+
+export async function signInWithGoogle(userData: any) {
+  try {
+    const q = query(collection(db, "users"), where("email", "==", userData.email));
+
+    const querySnapshot = await getDocs(q);
+    const data: any = querySnapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
+
+    if (data.length > 0) {
+      userData.role = data[0].role;
+
+      await updateDoc(doc(db, "users", data[0].id), userData);
+
+      return {
+        status: true,
+        data: userData,
+      };
+    } else {
+      userData.role = "member";
+
+      await addDoc(collection(db, "users"), userData);
+
+      return {
+        status: true,
+        data: userData,
+      };
+    }
+  } catch (error) {
+    return {
+      status: false,
+      error,
+    };
   }
 }

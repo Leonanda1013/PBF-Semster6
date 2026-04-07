@@ -1,8 +1,13 @@
-import { signIn as signInUser } from "@/utils/db/servicefirebase";
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import bcrypt from "bcrypt";
 import GoogleProvider from "next-auth/providers/google";
+import bcrypt from "bcrypt";
+
+// 🔹 rename biar tidak bentrok
+import {
+  signIn as signInUser,
+  signInWithGoogle,
+} from "@/utils/db/servicefirebase";
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -12,6 +17,7 @@ export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
 
   providers: [
+    // 🔐 LOGIN EMAIL
     CredentialsProvider({
       name: "credentials",
       credentials: {
@@ -23,7 +29,6 @@ export const authOptions: NextAuthOptions = {
         if (!credentials?.email || !credentials?.password) return null;
 
         const user: any = await signInUser(credentials.email);
-
         if (!user) return null;
 
         const isPasswordValid = await bcrypt.compare(
@@ -42,6 +47,7 @@ export const authOptions: NextAuthOptions = {
       },
     }),
 
+    // 🔐 LOGIN GOOGLE
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID || "",
       clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
@@ -50,24 +56,40 @@ export const authOptions: NextAuthOptions = {
 
   callbacks: {
     async jwt({ token, account, profile, user }: any) {
-      // 🔹 Login Credentials
+      // 🔹 Credentials
       if (account?.provider === "credentials" && user) {
         token.email = user.email;
         token.fullname = user.fullname;
         token.role = user.role;
       }
 
-      // 🔹 Login Google
+      // 🔹 Google
       if (account?.provider === "google") {
-        token.fullname = user?.name || profile?.name;
-        token.email = user?.email || profile?.email;
-        token.image = user?.image || profile?.picture;
-        token.type = "google";
+        const data = {
+          fullname: user?.name || profile?.name,
+          email: user?.email || profile?.email,
+          image: user?.image || profile?.picture,
+          type: "google",
+        };
+
+        try {
+          const result: any = await signInWithGoogle(data);
+
+          if (result?.status) {
+            token.fullname = result.data.fullname;
+            token.email = result.data.email;
+            token.image = result.data.image;
+            token.type = result.data.type;
+            token.role = result.data.role;
+          }
+        } catch (error) {
+          console.error("Google login error:", error);
+        }
       }
-// benerin eror atas ini
+
       return token;
     },
-// ini juga beda
+
     async session({ session, token }: any) {
       session.user = {
         ...session.user,

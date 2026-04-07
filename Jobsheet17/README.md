@@ -125,3 +125,6 @@ export default NextAuth(authOptions);
 
 ![alt text](images/image4.png)
 ![alt text](images/image5.png)
+
+# Langkah 7 - Simpan data Google ke Database
+![alt text](images/image6.png)
